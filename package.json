@@ -1,0 +1,27 @@
+{
+  "name": "ebook-reader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamalrasi/ebook-reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adamalrasi/ebook-reader/issues"
+  },
+  "homepage": "https://github.com/adamalrasi/ebook-reader#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2"
+  }
+}
