@@ -16,7 +16,7 @@ dotenv.config({path});
  */
 module.exports = defineConfig({
   testDir: './tests',
-  timeout: 5 * 60 * 1000,
+  timeout: 18000000,
 
   workers: process.env.CI ? 1 : 1,
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */

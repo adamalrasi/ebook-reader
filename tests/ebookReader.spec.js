@@ -36,6 +36,7 @@ while(idx < totalPages){
   await page.getByLabel('Next page').click();
   idx++;
   console.log(`Page: ${idx} - ${totalPages}`);
+  console.log(`Time: ${new Date().toLocaleTimeString()}`);
 }
   
 });
